@@ -1,5 +1,6 @@
 # Image starten (ohne dynamische Ports und mit)
 docker run -d -p 1521:1521 -p 81:81 --name=h21 h2
+
 docker run -d -P --name=h2 h2
 
 # Laufenden Container betreten
